@@ -259,15 +259,20 @@ img {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    gap: 40px;
     width: 151px;
     height: 200px;
     margin-bottom: 168px;
 }
+.mobile-menu-list-nav {
+    display: flex;
+    flex-direction: column;
+     gap: 40px;
+
+} 
 .mobile-menu-line-nav.menu-open {
     color: #404bbf;
 }
+
 .mobile-menu-line-nav {
     margin-bottom: 40px;
     font-weight: 700;
